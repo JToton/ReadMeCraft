@@ -14,7 +14,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Enter the project description:",
+    message: "Enter a description of your project:",
   },
   {
     type: "input",
@@ -51,6 +51,38 @@ const questions = [
     type: "input",
     name: "email",
     message: "Enter your email address:",
+  },
+  {
+    type: "input",
+    name: "screenshot",
+    message: "Enter the relative path to the screenshot image:",
+  },
+  {
+    type: "input",
+    name: "deployedLink",
+    message: "Enter the link to the deployed application:",
+  },
+  {
+    type: "input",
+    name: "technologies",
+    message: "Enter the technologies used in the project (comma-separated):",
+  },
+  {
+    type: "input",
+    name: "tableOfContents",
+    message: "Enter the table of contents sections (comma-separated):",
+    default: "Installation, Usage, License, Contributing, Tests, Questions",
+  },
+  {
+    type: "input",
+    name: "featuresTitle",
+    message: "Enter the title for the features section:",
+    default: "Features",
+  },
+  {
+    type: "input",
+    name: "features",
+    message: "Enter the features of your project (comma-separated):",
   },
   // ! End of Questions Asked.
 ];
