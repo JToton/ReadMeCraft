@@ -4,7 +4,28 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return "";
   }
-  return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`;
+
+  let badgeUrl = "";
+
+  switch (license) {
+    case "MIT":
+      badgeUrl = "https://img.shields.io/badge/License-MIT-yellow.svg";
+      break;
+    case "Apache 2.0":
+      badgeUrl = "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+      break;
+    case "GPL 3.0":
+      badgeUrl = "https://img.shields.io/badge/License-GPLv3-blue.svg";
+      break;
+    case "BSD 3-Clause":
+      badgeUrl =
+        "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg";
+      break;
+    default:
+      return "";
+  }
+
+  return `![License](${badgeUrl})`;
 }
 
 // TODO: Create a function that returns the license link
