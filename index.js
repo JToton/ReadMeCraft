@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const colors = require(`colors`);
+const colors = require("colors");
+const badgeMaker = require("badge-maker");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
@@ -58,33 +59,24 @@ const questions = [
     message: "Enter the relative path to the screenshot image:",
   },
   {
-    type: "input",
-    name: "deployedLink",
-    message: "Enter the link to the deployed application:",
-  },
-  {
-    type: "input",
+    type: "checkbox",
     name: "technologies",
-    message: "Enter the technologies used in the project (comma-separated):",
-  },
-  {
-    type: "input",
-    name: "tableOfContents",
-    message: "Enter the table of contents sections (comma-separated):",
-    default: "Installation, Usage, License, Contributing, Tests, Questions",
-  },
-  {
-    type: "input",
-    name: "featuresTitle",
-    message: "Enter the title for the features section:",
-    default: "Features",
+    message: "Select the technologies used in the project:",
+    choices: [
+      "Node.js",
+      "Inquirer",
+      "Colors",
+      "JavaScript",
+      "Python",
+      "Java",
+      "C++",
+    ],
   },
   {
     type: "input",
     name: "features",
     message: "Enter the features of your project (comma-separated):",
   },
-  // ! End of Questions Asked.
 ];
 
 // TODO: Create a function to write README file

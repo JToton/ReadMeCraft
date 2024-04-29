@@ -1,9 +1,8 @@
-# README Craft Generator
-
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+# a
+![License](https://img.shields.io/badge/License-Apache 2.0-blue.svg)
 
 ## Description
-cmd line README generation application
+a
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,21 +12,41 @@ cmd line README generation application
 
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
 * [Questions](#questions)
 
+
 ## Installation
-Install nodejs and inquirer
+a
 
 ## Usage
-Use in CMD
+a
+
+## Screenshot
+![Screenshot](a)
+
 ## License
-This project is licensed under the MIT license.
+This project is licensed under the Apache 2.0 license.
 
 ## Contributing
-No contributions allowed
+a
 
 ## Tests
-no testing included
+a
+
+## Technologies Used
+- Node.js
+- Inquirer
+- Colors
+- JavaScript
+- Python
+- Java
+- C++
+
+## Features
+- a
 
 ## Questions
-If you have any questions about the project, you can reach me at jtoton@example.com. You can find more of my work at [Jtoton](https://github.com/Jtoton/).
+If you have any questions about the project, you can reach me at a.
+You can find more of my work at [a](https://github.com/a/).
