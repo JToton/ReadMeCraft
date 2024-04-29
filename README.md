@@ -1,5 +1,5 @@
 # a
-![License](https://img.shields.io/badge/License-Apache 2.0-blue.svg)
+![License](https://img.shields.io/badge/License-BSD 3-Clause-blue.svg)
 
 ## Description
 a
@@ -27,7 +27,7 @@ a
 ![Screenshot](a)
 
 ## License
-This project is licensed under the Apache 2.0 license.
+This project is licensed under the BSD 3-Clause license.
 
 ## Contributing
 a
@@ -36,13 +36,13 @@ a
 a
 
 ## Technologies Used
-- Node.js
-- Inquirer
-- Colors
-- JavaScript
-- Python
-- Java
-- C++
+- [34mNode.js[39m
+- [34mInquirer[39m
+- [34mColors[39m
+- [34mJavaScript[39m
+- [34mPython[39m
+- [34mJava[39m
+- [34mC++[39m
 
 ## Features
 - a

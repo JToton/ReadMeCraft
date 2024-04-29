@@ -10,72 +10,78 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "Enter the project title:",
+    message: "Enter the project title:".underline.green,
   },
   {
     type: "input",
     name: "description",
-    message: "Enter a description of your project:",
+    message: "Enter a description of your project:".yellow,
   },
   {
     type: "input",
     name: "installation",
-    message: "Enter the installation instructions:",
+    message: "Enter the installation instructions:".yellow,
   },
   {
     type: "input",
     name: "usage",
-    message: "Enter the usage information:",
+    message: "Enter the usage information:".yellow,
   },
   {
     type: "list",
     name: "license",
-    message: "Choose a license for your project:",
-    choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3-Clause", "None"],
+    message: "Choose a license for your project:".yellow,
+    choices: [
+      "MIT".blue,
+      "Apache 2.0".blue,
+      "GPL 3.0".blue,
+      "BSD 3-Clause".blue,
+      "None".blue,
+    ],
   },
   {
     type: "input",
     name: "contributing",
-    message: "Enter the contribution guidelines:",
+    message: "Enter the contribution guidelines:".yellow,
   },
   {
     type: "input",
     name: "tests",
-    message: "Enter the test instructions:",
+    message: "Enter the test instructions:".yellow,
   },
   {
     type: "input",
     name: "github",
-    message: "Enter your GitHub username:",
+    message: "Enter your GitHub username:".yellow,
   },
   {
     type: "input",
     name: "email",
-    message: "Enter your email address:",
+    message: "Enter your email address:".yellow,
   },
   {
     type: "input",
     name: "screenshot",
-    message: "Enter the relative path to the screenshot image:",
+    message: "Enter the relative path to the screenshot image:".yellow,
   },
   {
     type: "checkbox",
     name: "technologies",
-    message: "Select the technologies used in the project:",
+    message: "Select the technologies used in the project:".yellow,
     choices: [
-      "Node.js",
-      "Inquirer",
-      "Colors",
-      "JavaScript",
-      "Python",
-      "Java",
-      "C++",
+      "Node.js".blue,
+      "Inquirer".blue,
+      "Colors".blue,
+      "JavaScript".blue,
+      "Python".blue,
+      "Java".blue,
+      "C++".blue,
     ],
   },
   {
     type: "input",
     name: "features",
-    message: "Enter the features of your project (comma-separated):",
+    message: "Enter the features of your project (comma-separated):".yellow,
   },
 ];
 
@@ -86,7 +92,7 @@ function writeToFile(fileName, data) {
       console.error(err);
       return;
     }
-    console.log("README file generated successfully!".green);
+    console.log("README file generated successfully!".yellow);
   });
 }
 
