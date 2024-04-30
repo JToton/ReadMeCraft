@@ -7,3 +7,5 @@
 • npm: colors. (n.d.). Npm. https://www.npmjs.com/package/colors
 
 • npm: inquirer. (n.d.). Npm. https://www.npmjs.com/package/inquirer
+
+• Riyas. (n.d.). Stamp set red example rectangle PNG and Vector. Pngtree. https://pngtree.com/free-png-vectors/example-stamp

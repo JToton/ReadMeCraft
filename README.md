@@ -1,8 +1,8 @@
-# README CRAFT GENERATOR
-
+# README CRAFTER
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## Description
-This is a test description.
+Test
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,34 +18,37 @@ This is a test description.
 
 
 ## Installation
-This is a test installation section.
+TEst
 
 ## Usage
-This is test usage data.
+TEst
 
 ## Screenshot
-![Screenshot](/images/screenshot.png)
+![Screenshot](/images/example.png)
 
 ## License
-This project is licensed under the [34mApache 2.0[39m license.
+This project is licensed under the Apache 2.0 license.
 
 ## Contributing
-No guidelines. No contributions accepted.
+Test
 
 ## Tests
-These are test instructions.
+Test
 
 ## Technologies Used
-- [34mNode.js[39m
-- [34mInquirer[39m
-- [34mColors[39m
-- [34mJavaScript[39m
+- Node.js
+- Inquirer
+- Colors
+- JavaScript
+- Python
+- Java
+- C++
 
 ## Features
-- Test Feature 1
-- Test Feature 2
-- Test Feature 3
+- feature test 1
+- and 2
+- and 3
 
 ## Questions
-If you have any questions about the project, you can reach me at Jtoton@example.com.
-You can find more of my work at [Jtoton](https://github.com/Jtoton/).
+If you have any questions about the project, you can reach me at jtoton@example2.com.
+You can find more of my work at [jtoton](https://github.com/jtoton/).

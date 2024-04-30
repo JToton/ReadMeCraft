@@ -5,26 +5,16 @@ function renderLicenseBadge(license) {
     return "";
   }
 
-  let badgeUrl = "";
+  // Use the correct badge URL for each license
+  const badgeUrls = {
+    MIT: "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "Apache 2.0": "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+    "GPL 3.0": "https://img.shields.io/badge/License-GPLv3-blue.svg",
+    "BSD 3-Clause":
+      "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
+  };
 
-  switch (license) {
-    case "MIT":
-      badgeUrl = "https://img.shields.io/badge/License-MIT-yellow.svg";
-      break;
-    case "Apache 2.0":
-      badgeUrl = "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
-      break;
-    case "GPL 3.0":
-      badgeUrl = "https://img.shields.io/badge/License-GPLv3-blue.svg";
-      break;
-    case "BSD 3-Clause":
-      badgeUrl =
-        "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg";
-      break;
-    default:
-      return "";
-  }
-
+  const badgeUrl = badgeUrls[license] || "";
   return `![License](${badgeUrl})`;
 }
 
@@ -64,6 +54,7 @@ ${renderLicenseLink(data.license)}
     .map((feature) => `- ${feature.trim()}`)
     .join("\n");
 
+  // Convert the technologies array to a bullet list
   const technologies = data.technologies
     .map((technology) => `- ${technology}`)
     .join("\n");
