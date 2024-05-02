@@ -15,3 +15,7 @@
 • Basic writing and formatting syntax - GitHub Docs. (n.d.). GitHub Docs. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 • https://www.markdownguide.org/cheat-sheet/
+
+• How to embed a video into GitHub README.md? (n.d.). Stack Overflow. https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md
+
+• GeeksforGeeks. (2022, January 3). How to Add Videos on README .md File in a GitHub Repository? GeeksforGeeks. https://www.geeksforgeeks.org/how-to-add-videos-on-readme-md-file-in-a-github-repository/

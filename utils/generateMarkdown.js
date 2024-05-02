@@ -42,6 +42,8 @@ function generateMarkdown(data) {
   const tableOfContents = `## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshot](#screenshot)
+* [Walkthrough](#walkthrough)
 ${renderLicenseLink(data.license)}
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -77,6 +79,9 @@ ${data.usage}
 ## Screenshot
 ![Screenshot](${data.screenshot})
 
+## Walkthrough
+<video src="./demonstration_video/Demonstration.mp4" controls width="100%"></video>
+
 ${renderLicenseSection(data.license)}
 
 ## Contributing
@@ -91,8 +96,6 @@ ${technologies}
 ## Features
 ${features}
 
-// *Questions section.
-// *Username prompt linked to GitHub.
 ## Questions
 If you have any questions about the project, you can reach me at ${data.email}.
 You can find more of my work at [${data.github}](https://github.com/${
