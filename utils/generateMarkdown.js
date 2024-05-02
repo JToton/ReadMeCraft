@@ -1,11 +1,12 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// *Function that returns a license badge based on which license is passed in.
+// *If there is no license, return an empty string.
 function renderLicenseBadge(license) {
   if (license === "None") {
     return "";
   }
 
-  // Use the correct badge URL for each license
+  // *Object containing the badge URLs for each license.
+  // *Use the correct badge URL for each license.
   const badgeUrls = {
     MIT: "https://img.shields.io/badge/License-MIT-yellow.svg",
     "Apache 2.0": "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
@@ -18,8 +19,8 @@ function renderLicenseBadge(license) {
   return `![License](${badgeUrl})`;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// *Function that returns the license link.
+// *If there is no license, return an empty string.
 function renderLicenseLink(license) {
   if (license === "None") {
     return "";
@@ -27,8 +28,8 @@ function renderLicenseLink(license) {
   return `\n* [License](#license)\n`;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// *Function that returns the license section of README.
+// *If there is no license, return an empty string.
 function renderLicenseSection(license) {
   if (license === "None") {
     return "";
@@ -36,7 +37,7 @@ function renderLicenseSection(license) {
   return `## License\nThis project is licensed under the ${license} license.`;
 }
 
-// TODO: Create a function to generate markdown for README
+// *Function to generate markdown for README.
 function generateMarkdown(data) {
   const tableOfContents = `## Table of Contents
 * [Installation](#installation)
@@ -48,13 +49,13 @@ ${renderLicenseLink(data.license)}
 * [Features](#features)
 * [Questions](#questions)
 `;
-
+  // *Convert the features array to a bullet list.
   const features = data.features
     .split(",")
     .map((feature) => `- ${feature.trim()}`)
     .join("\n");
 
-  // Convert the technologies array to a bullet list
+  // *Convert the technologies array to a bullet list.
   const technologies = data.technologies
     .map((technology) => `- ${technology}`)
     .join("\n");
@@ -90,6 +91,8 @@ ${technologies}
 ## Features
 ${features}
 
+// *Questions section.
+// *Username prompt linked to GitHub.
 ## Questions
 If you have any questions about the project, you can reach me at ${data.email}.
 You can find more of my work at [${data.github}](https://github.com/${
@@ -98,4 +101,5 @@ You can find more of my work at [${data.github}](https://github.com/${
 `;
 }
 
+// *Export for file creation.
 module.exports = generateMarkdown;

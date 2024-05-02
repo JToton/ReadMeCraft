@@ -9,3 +9,9 @@
 • npm: inquirer. (n.d.). Npm. https://www.npmjs.com/package/inquirer
 
 • Riyas. (n.d.). Stamp set red example rectangle PNG and Vector. Pngtree. https://pngtree.com/free-png-vectors/example-stamp
+
+• ChatGPT. (n.d.). https://chat.openai.com/ - (Used to generate the example README.md for random information and similar data).
+
+• Basic writing and formatting syntax - GitHub Docs. (n.d.). GitHub Docs. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+• https://www.markdownguide.org/cheat-sheet/
